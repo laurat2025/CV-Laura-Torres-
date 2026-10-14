@@ -1,8 +1,9 @@
 
-# 📄  Laura Vanessa Torres Valencia
-> **Data & Decision Engineer | DataOps & Applied AI Specialist**  
-> 📍 Cali, Colombia | 📧 [lauravanessatv@gmail.com](mailto:lauravanessatv@gmail.com)  
-> 🔗 LinkedIn(https://linkedin.com/in/lauratorres-data) | 🌐 [GitHub](https://github.com/laurat2025)
+# Laura Vanessa Torres Valencia
+### **Data & Decision Engineer | DataOps & Applied AI Specialist**
+
+📍 Cali, Colombia | 📧 [lauravanessatv@gmail.com](mailto:lauravanessatv@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lauratorres-data) | 🌐 [GitHub](https://github.com/laurat2025)
 
 ---
 
@@ -11,7 +12,6 @@
 Ingeniera (en formación) de **Análisis de Datos e Inteligencia Artificial** enfocada en la creación de arquitecturas de datos robustas (**DataOps**), gobernanza automatizada y sistemas de **Inteligencia de Decisiones (*Decision Intelligence*)**. 
 
 Especializada en transformar datos masivos y modelos analíticos en balances estratégicos de alto impacto para la toma de decisiones directivas. Experiencia práctica en diseño de pipelines ETL/ELT automatizados, orquestación con Apache Airflow, validación programática de datos (Pandera/Pydantic) y despliegue de microservicios contenedorizados (Docker, Kubernetes).
-
 ---
 
 ## 🛠️ Habilidades Técnicas & Stack
