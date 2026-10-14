@@ -65,3 +65,8 @@ Especializada en transformar datos masivos y modelos analíticos en balances est
 ---
 
 > 📌 *Nota: Si deseas descargar la versión oficial de mi CV en PDF o ver la plantilla en LaTeX, puedes consultar el archivo [`resume.tex`](./resume.tex) en este repositorio.*
+> <p align="center">
+  <a href="./resume.tex">
+    <img src="https://img.shields.io/badge/Ver_Plantilla-LaTeX_%28resume.tex%29-blue?style=for-the-badge&logo=overleaf" alt="Ver resume.tex">
+  </a>
+</p>
