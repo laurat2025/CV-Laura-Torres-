@@ -1,5 +1,5 @@
-# CV Laura Torres
-# 📄 Curriculum Vitae | Laura Vanessa Torres Valencia
+
+# 📄  Laura Vanessa Torres Valencia
 > **Data & Decision Engineer | DataOps & Applied AI Specialist**  
 > 📍 Cali, Colombia | 📧 [lauravanessatv@gmail.com](mailto:lauravanessatv@gmail.com)  
 > 🔗 [LinkedIn](https://linkedin.com/in/lauratorres-data) | 🌐 [GitHub](https://github.com/laurat2025)
