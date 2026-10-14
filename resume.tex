@@ -1,0 +1,162 @@
+%-------------------------
+% Resume in LaTeX
+% Based off of: https://github.com/sb2nov/resume
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english,spanish]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topoffset}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS friendly
+\pdfgentounicode=1
+
+%-------------------------------------------------------------------------
+% CUSTOM COMMANDS
+%-------------------------------------------------------------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------------------------------------
+%                        INICIO DEL CURRICULUM
+%-------------------------------------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Laura Vanessa Torres Valencia} \\ \vspace{1pt}
+    \small Cali, Colombia $|$ 
+    \href{mailto:lauravanessatv@gmail.com}{\underline{lauravanessatv@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/lauratorres-data}{\underline{linkedin.com/in/lauratorres-data}} $|$ 
+    \href{https://github.com/lauratorres-data}{\underline{github.com/lauratorres-data}}
+\end{center}
+
+%---------- PERFIL PROFESIONAL ----------
+\section{Perfil Profesional}
+\small{Ingeniera (en formación) de Análisis de Datos e Inteligencia Artificial enfocada en la creación de arquitecturas de datos robustas (DataOps), gobernanza automatizada y sistemas de Inteligencia de Decisiones (Decision Intelligence). Experta en transformar datos masivos y modelos analíticos en balances estratégicos para la toma de decisiones directivas. Sólida experiencia en diseño de pipelines ETL/ELT automatizados, orquestación con Apache Airflow, validación programática de datos y microservicios contenedorizados.}
+
+%---------- HABILIDADES TÉCNICAS ----------
+\section{Habilidades Técnicas}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Pipelines \& DataOps}{: Apache Airflow, ETL/ELT, Validación de Esquemas (Pandera, Pydantic), Data Lineage} \\
+     \textbf{Big Data \& Bases de Datos}{: PySpark, Pandas, PostgreSQL, MariaDB, SQLite, Optimización SQL} \\
+     \textbf{Arquitectura \& Cloud}{: FastAPI, Node.js, Microservicios, Docker, Docker Compose, Kubernetes (Minikube)} \\
+     \textbf{Observabilidad \& Calidad}{: Prometheus, Grafana, Pruebas de Calidad de Datos} \\
+     \textbf{Matemática \& Analítica}{: Modelado Probabilístico, Inferencia Estadística, KPIs Operativos y Financieros}
+    }}
+ \end{itemize}
+
+%---------- PROYECTOS DESTACADOS ----------
+\section{Proyectos Destacados e Investigación Aplicada}
+  \resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+      {\textbf{Pipeline Automatizado de Ingesta y Validación (DataOps)} $|$ \emph{Python, Airflow, Pandera, SQLite}}{}
+      \resumeItemListStart
+        \resumeItem{Diseño y despliegue de pipeline ETL orquestado con Apache Airflow para procesamiento de datasets estructurados.}
+        \resumeItem{Implementación de validación automática de esquemas y reglas de calidad en tiempo real con Pandera y Pydantic.}
+        \resumeItem{Gestión de trazabilidad y observabilidad de datos para garantizar el cumplimiento de estándares \emph{AI-Ready Data}.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Microservicios Contenedorizados para Analítica} $|$ \emph{FastAPI, Node.js, Docker, Kubernetes, Prometheus}}{}
+      \resumeItemListStart
+        \resumeItem{Desarrollo de arquitectura distribuida de microservicios con persistencia en bases de datos relacionales.}
+        \resumeItem{Empaquetado y orquestación de infraestructura mediante Docker Compose y Minikube (Kubernetes).}
+        \resumeItem{Configuración de pilas de monitoreo y observabilidad con Prometheus y Grafana dashboards.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Benchmarking de Procesamiento Masivo (PySpark vs. Pandas)} $|$ \emph{PySpark, Pandas, Google Colab}}{}
+      \resumeItemListStart
+        \resumeItem{Ejecución de proyecto de benchmarking comparando rendimiento en datasets de transporte de múltiples millones de filas.}
+        \resumeItem{Evaluación de tiempos de ejecución y consumo computacional para optimización de motores de procesamiento.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Modelo de Negocio e Inteligencia de Decisiones (App Parking UAO)} $|$ \emph{Python, SQL, Business Canvas}}{}
+      \resumeItemListStart
+        \resumeItem{Formulación de arquitectura técnica, modelo de negocio (Canvas) y pitch deck para plataforma digital de estacionamientos.}
+        \resumeItem{Diseño de indicadores clave (KPIs) y tableros para simulación de escenarios de ocupación y retorno de inversión (ROI).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%---------- EDUCACIÓN ----------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad Autónoma de Occidente (UAO)}{Cali, Colombia}
+      {Pregrado en Ingeniería de Análisis de Datos e Inteligencia Artificial}{Actualidad}
+  \resumeSubHeadingListEnd
+
+%---------- IDIOMAS ----------
+\section{Idiomas}
+  \small{\item{
+   \textbf{Español:} Nativo $|$ 
+   \textbf{Inglés:} Profesional / Técnico (Lectura, escritura y comunicación aplicada a ingeniería de datos)
+  }}
+
+\end{document}
